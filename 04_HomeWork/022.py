@@ -40,3 +40,7 @@ for i in N:
             result.append(i)
 
 print(*sorted(set(result)), sep="\t")
+
+union_result = sorted(set(N).intersection(set(M)))
+
+print(*union_result, sep="\t")
